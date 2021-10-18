@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "MarsNasaSolution.Service/1.0.0": {
+        "dependencies": {
+          "MarsNasaSolution.Data": "1.0.0",
+          "MarsNasaSolution.Repository": "1.0.0"
+        },
+        "runtime": {
+          "MarsNasaSolution.Service.dll": {}
+        }
+      },
+      "MarsNasaSolution.Data/1.0.0": {
+        "runtime": {
+          "MarsNasaSolution.Data.dll": {}
+        }
+      },
+      "MarsNasaSolution.Repository/1.0.0": {
+        "dependencies": {
+          "MarsNasaSolution.Data": "1.0.0"
+        },
+        "runtime": {
+          "MarsNasaSolution.Repository.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MarsNasaSolution.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MarsNasaSolution.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MarsNasaSolution.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

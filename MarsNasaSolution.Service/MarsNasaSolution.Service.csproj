@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MarsNasaSolution.Data\MarsNasaSolution.Data.csproj" />
+    <ProjectReference Include="..\MarsNasaSolution.Repository\MarsNasaSolution.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
